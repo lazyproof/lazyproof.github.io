@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cheat Sheet"
+title:  "Docker/Fig Cheat Sheet"
 date:   2014-09-27 14:06:00
 categories: docker fig cheat-sheet
 ---
@@ -20,4 +20,9 @@ fig up
 ###Stop all docker containers
 {% highlight sh %}
 docker stop $(docker ps -a -q)
+{% endhighlight %}
+
+###Delete all docker images
+{% highlight sh %}
+docker rmi $(docker images -q)
 {% endhighlight %}
