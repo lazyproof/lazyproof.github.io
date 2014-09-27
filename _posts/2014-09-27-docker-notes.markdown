@@ -20,8 +20,6 @@ An image never changes and therefore have no state.
 ###What is the init process?
 
 ###Why use phusion base images?
-####Pull down and look around base docker image
-docker run --rm -t -i phusion/baseimage:<VERSION> /sbin/my_init -- bash -l
 
 ###File Permissions
 
