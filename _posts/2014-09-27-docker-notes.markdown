@@ -13,7 +13,17 @@ Adds a read-write file-system over the read-only file system. There may be multi
 We think of each of these file systems as a layer
 
 ###What are docker Images?
-A Read-only Layer is called an image. An image never changes and therefore have no state.
+A Read-only Layer is called an image.
+
+An image never changes and therefore have no state.
+
+###What is the init process?
 
 ###Why use phusion base images?
+####Pull down and look around base docker image
+docker run --rm -t -i phusion/baseimage:<VERSION> /sbin/my_init -- bash -l
+
+###File Permissions
+
+###Getting a basic Rails implementation running
 
