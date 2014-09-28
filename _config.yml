@@ -9,3 +9,5 @@ github_username:  lazyproof
 
 # Build settings
 markdown: kramdown
+
+permalink: /:title
