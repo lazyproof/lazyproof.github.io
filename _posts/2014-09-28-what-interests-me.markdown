@@ -4,6 +4,14 @@ title:  "What Interests Me"
 date:   2014-09-27 15:31:00
 categories: machine-learning
 ---
+### High Level
+* Decision Making Systems
+* Multi-Agent, Systems
+* Computational Intelligence
+* Systems Architecture/Engineering
+* Solving important problems
+* Small components that do one thing and do it well (unix philosophy; cells in biology)
+* Real-Time, Mission-Critical Distributed Systems
 
 ### Machine Learning, AI
 - Computer Vision, Object Recognition
@@ -16,11 +24,14 @@ categories: machine-learning
 - Reenforcement Learning/Supervised Learning
 - Unsupervised learning. Finding new patterns.
 - Trading Signals, Financial Trading, Portfolio Optimization
+- Search
 
 ### Software System Architecture - Infrastructure
 - Service Oriented Architecture
 - Microservices
 - Small, Single Purpose Modules
+- Continuous Deployment
+- Linux Containers/Docker
 
 ### Big Data Processing
 - Hadoop
@@ -34,8 +45,12 @@ categories: machine-learning
 - Immutable Infrastructure through Docker
 - Container Orchestration, one click deploy to dev/stage/prod.
 - Automatic server configuration based on goal settings (cost, reliability requirements, etc)
-
-### Data Mining
+- DNS
+- Firewalls
+- Load Balancing
+- Deployment
+- Monitoring
+- Analytics
 
 ### Front-End Development (frozen)
 - Nginx
@@ -44,9 +59,6 @@ categories: machine-learning
 - Gulp Asset Pipeline
 - Coffeescript
 - Angular
-
-### Meteor Starter App
-
 
 ### Rails-API Starter App
 - Rails 4.2
@@ -57,3 +69,4 @@ categories: machine-learning
 
 ### Programming Languages
 - Agnostic
+- Java, Javascript, Meteor, Rails, Redis, Postgres
